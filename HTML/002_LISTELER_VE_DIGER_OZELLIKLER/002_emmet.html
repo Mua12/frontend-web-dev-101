@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Emmet ile Daha Hızlı HTML Yapıları Oluşturmak</title>
+</head>
+<body>
+    <h1> Emmet ile Daha Hızlı HTML Yapıları Oluşturmak / Zen Coding</h1>
+    <p> Emmet web geliştiricilerinin sıklıkla zamandan tasarruf etmek ve daha hızlı kod yazmak için kullandığı bir eklentidir. Emmet’in temel mantığı, yazılımcıya kodlama yaparken zaman kazandırmasıdır. Örneğin hepimiz bir html dosyasının iskeletini biliriz.</p>
+    <p> Emmet sayesinde çok daha hızlı bir biçimde <b>! + Tab</b> kullanarak bu yapıyı oluşturabilirsiniz. Bunu tek tek yazmaktansa iki tuşa basarak yapmak çok güzel değil mi?</p>
+    <p> Anlayacağınız üzere Emmet bazı kısa yollarla basit bir biçimde HTML ve CSS kodu yazmamıza yardımcı olur. Aynı kodu tekrar tekrar yazmanızı engellerken üretkenliğinizi de arttırmış olur. Emmet neredeyse tüm text editörlerinde mevcuttur, bu yüzden onu yüklemenize gerek yoktur.</p>
+    
+    <p>Bu noktada sayfa kaynağını görüntüleyerek çıktıları inceleyebilirsiniz.</p>
+    <!--
+    etiket isimlerini direkt verebiliyoruz -> h1 yazıp 'enter' veya 'tab' ile.
+    + kardeş öğe yaratır.
+    > içinde öğe yaratır.
+    ^ yukarı çık  ve öğe oluştur.
+    * çarp -> p*3 oluşturur.
+    lorem  -> uzun ve anlamsız yazı dizisi oluşturur
+    lorem1, lorem2, ...  -> verilen sayı kadar kelime içeren yazıyı oluşturur.
+    . -> class oluşturur.
+    # -> id  oluşturur.
+    -->
+    
+    <!--
+    <b>Burada + ve * ifadesinin farkını da daha kolay anlayabiliriz.</b> 
+    <p> Örneğin ul tagının içine aynı id’ye sahip 3 adet li eklemek istiyorsam * ifadesi kullanılabilir.Fakat amacım farklı id’lere sahip üç adet li tagı oluşturmaksa ul>li#id1+li#id2+li#id3 yapılır.
+    </p>    
+    <b>Peki otomatik artış sağlayan değerleri tek tek yazmak amacımız zaman tasarrufu iken ne kadar mantıklı?</b>
+    <p>
+        Emmet bunun için de bir kısa yola sahip :$ ifadesi. Yani yukarda görmüş olduğunuz <code>ul>li#id1+li#id2+li#id3</code>  şeklinde yazdığımız kod bloğunu çok daha basit bir biçimde <code>ul>li#idNo$*3</code> diyerek yazabiliriz. Böylece otomatik olarak idNo1, idNo2 ve idNo3 idlerine sahip üç adet li tagımız olur.
+    </p>
+
+    <ul>
+    <li id="idNo1"></li>
+    <li id="idNo2"></li>
+    <li id="idNo3"></li>
+    </ul>
+    -->
+    
+    <!-- h1+p+p+h2+p+p+p+p -->
+    <h1></h1>
+    <p></p>
+    <p></p>
+    <h2></h2>
+    <p></p>
+    <p></p>
+    <p></p>
+    <p></p>
+
+    <!-- h1+p+p+h2+p+p+p+p -> h1+p*2+h2+p*4   -->
+    <h1></h1>
+    <p></p>
+    <p></p>
+    <h2></h2>
+    <p></p>
+    <p></p>
+    <p></p>
+    <p></p>
+
+    <!-- ul>li*5 -->
+    <ul>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+    </ul>
+
+    <!-- ul>li*3^p*2+h3 -->
+    <ul>
+        <li></li>
+        <li></li>
+        <li></li>
+    </ul>
+    <p></p>
+    <p></p>
+    <h3></h3>
+
+    <!-- ul>li*3>lorem1^p*2>lorem4+h3>lorem1 -- hatalı  -->
+    <ul>
+        <li>Lorem.</li>
+        <li>Ratione.</li>
+        <li>Non.</li>
+        <p>
+            Lorem ipsum dolor sit.
+            <h3>Lorem.</h3>
+        </p>
+        <p>
+            Fuga vitae alias repudiandae.
+            <h3>Fugit.</h3>
+        </p>
+    </ul>
+
+    <!-- ul>li*3>lorem1^^p*2>lorem4^h3>lorem1 -->
+    <ul>
+        <li>Lorem.</li>
+        <li>Alias.</li>
+        <li>Inventore.</li>
+    </ul>
+    <p>Lorem ipsum dolor sit.</p>
+    <p>Amet magnam molestiae explicabo.</p>
+    <h3>Lorem.</h3>
+
+    <!-- h3.deneme>Lorem1 -->
+    <h3 class="deneme">Lorem.</h3>
+    <!-- h3.lorem1 -->
+    <h3 class="lorem1"></h3>
+    <!-- h3#idollusun>lorem1 -->
+    <h3 id="idollusun">Lorem.</h3>
+    <!--h3.deneme#idolussun>lorem1-->
+    <h3 class="deneme" id="idolussun">Lorem.</h3>
+
+    <!-- ul>li.tepki  -->
+    <ul>
+    <li class="tepki"></li>
+    </ul>
+
+    <!-- ul>.text-red*3 -->
+    <ul>
+    <li class="text-red"></li>
+    <li class="text-red"></li>
+    <li class="text-red"></li>
+    </ul>
+
+</body>
+</html>

@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Listelere Giriş</title>
+</head>
+<body>
+    <h1>Listelere Giriş</h1>
+    <h2>Listeleme Etiketleri</h2>
+    <p>Listeleri iki ana başlık altında listeleyebiliriz;</p>
+    <ol>
+        <li>Sıralı Listeler</li>
+        <li>Sırasız Listeler</li>
+    </ol>
+
+    <h3>1. Sıralı Listeler</h3>
+    <p>Sıralı listeler ardışık liste numaraları vermek için kullanılır. Sıralı listelerden yararlanmak için '< ol >' etiketi kullanılır.
+    </p>
+    <p> Gerçek <b>tereyağı</b> nasıl anlaşılır ?</p>
+    <ol>
+        <li>Oda sıcaklığında tamamen erimez</li>
+        <li>Suyun içinde tek parça halinde çözünür</li>
+        <li>Tereyağı rengi sarı yada beyaz olabilir</li>
+    </ol>
+    <p>Liste başındaki sıralandırmayı rakamdan başka <b>roma rakamı veya alfabetik</b> şeklinde de yapabiliriz. Bunun için <b>type</b> özelliğini kullanmamız gerekir.</p>
+
+    <ol type="I">
+        <li>Javascript</li>
+        <li>C#</li>
+        <li>Php</li>
+    </ol>
+
+    <ol type="A">
+        <li>Javascript</li>
+        <li>C#</li>
+        <li>Php</li>
+    </ol>
+
+    <h3>2. Sırasız Listeler</h3>
+    <p>
+        Sırasız listeler numaralandırma olmadan oluşturduğumuz listeleredir. Her bir liste elemanı bir satırı kaplayacak şekilde yani blok etiket şeklinde oluşturulur. Sırasız listelerden yararlanmak için '< ul >' etiketi kullanılır.
+    </p>
+
+    <ul>
+    <li>Çay</li>
+    <li>Türk Kahvesi</li>
+    <li>Süt</li>
+    </ul> 
+
+    <p>Liste elemanlarının başındaki içi dolu daireyi değiştirebilir veya silebiliriz.</p>
+
+    <p>**Silmek İçin: **</p>
+
+    <ul style="list-style-type:none">
+    <li>Çay</li>
+    <li>Türk Kahvesi</li>
+    <li>Süt</li>
+    </ul>
+
+    <p>Liste başındaki içi dolu daireyi değiştirmek için ise disc, square, circle değerlerini kullanabiliriz.</p>
+
+    <ul style="list-style-type:square">
+    <li>Telefon</li>
+    <li>Bilgisayar</li>
+    <li>Yazıcı</li>
+    </ul>
+
+    <b>
+        <p> Sıralı listeler 1, 2, 3, 4... -> Ordered list   -> ol </p> 
+        <p> Sırasız listeler * * * * *... -> Unordered list -> ul </p>
+        <p> Liste Elamanı ekler ->  li </p>
+    </b>
+    <!--
+        Sıralı listeler 1, 2, 3, 4... -> Ordered list   -> ol
+        Sırasız listeler * * * * *... -> Unordered list -> ul
+        Liste Elamanı -> <li> </li>
+    -->
+
+    <ol>
+        <li>Sıralı listenin ilk    elemanı *1*</li>
+        <li>Sıralı listenin ikinci elemanı *2*</li>
+        <li>Sıralı listenin üçüncü elemanı *3*</li>
+    </ol>
+    <ul>
+        <li>Sırasız listenin ilk    elemanı ***</li>
+        <li>Sırasız listenin ikinci eleamnı ***</li>
+        <li>Sırasız listenin üçüncü elemanı ***</li>
+    </ul>
+    <ol>
+        <li>Özellik **1**</li>
+        <li>Özellik **2**</li>
+        <li>Diğer Özellikler :
+            <ul>
+                <li>Sırasız liste elemanı **</li>
+                <li>Sırasız liste elemanı **</li>
+                <li>Sırasız liste elemanı **</li>
+            </ul>
+        </li>
+    </ol>
+
+</body>
+</html>

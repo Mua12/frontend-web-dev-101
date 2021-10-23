@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Linklerle Çalışmak</title>
+</head>
+<body>
+    <h1>Linklerle Çalışmak</h1>
+    <p>
+        Bu derste; <br>
+        - Aynı HTML dokümanı üzerindeki bir alana nasıl gideceğinizi, <br>
+        - Başka bir sayfaya nasıl link verebileceğinizi, <br>
+        - Başka bir web sitesine nasıl link verebileceğinizi,<br> 
+        - Telefon ve e-mail linki oluşturmayı <br>
+        göreceğiz.
+    </p>
+    <p>
+        Bir HTML dosyası içerisinde herhangi bir sayfaya, sayfa içine, bir websitesine, e-mail, telefon adreslerine ya da dosya yolu belirtilen herhangi bir dosyaya (resim, video, zip vb.) erişmek için kullanılan HTML etiketidir. Genel yapısı <a></a> şeklindedir.
+    </p>
+    <!--
+        <a href="gitmek istenilen yer">Gidilecek yer için isim tanımlaması</a>
+    -->
+    <p>Örnek:</p>
+    <a href="https://www.google.com.tr">Google ile Ara !</a>
+
+    <h2>HTML sayfaları içinde kullanımı:</h2>
+    <h3>Sayfalar arası kullanımı:</h3>
+    <p>
+        HTML sayfalar arası geçiş yapmak için linklerden şu şekilde faydalanırız. Şu an üzerinde çalıştığımız klasörün içerisinde bir linksayfasi.html adında dosya oluşturduk ve içerisine bir şeyler yazdık. Şimdi HTML'de sayfalar arası linkleme ile yeni oluşturduğumuz sayfaya gitmek için link oluşturacağız:    
+    </p>
+    <p>a href="linksayfasi.html" :</p>
+    <a href="004_link_sayfasi.html">İkinci sayfaya git</a>
+    <h4>target özelliğiyle:</h4>
+    <p>href="linksayfasi.html" target="_blank":</p>
+    <a href="004_link_sayfasi.html" target="_blank">İkinci sayfaya git</a>
+    <p>
+        Bunu oluşturduğumuzda tarayıcı ekranımızda Diğer sayfaya geç diye bir link oluşacak (üzerine gelindiğinde mouse'un el işaretine dönmesinden anlaşılabilir)
+    </p>
+
+    <h3>Sayfa içerisinde kullanımı:</h3>
+    <p>
+        Sayfa içerisinde herhangi bir başlığa ya da bölüme gitmek için linkler kullanılabilir. Aynı sayfada işlem yapacağımız için birden fazla satır ekleyeceğim ve en aşağıya scroll ile kaydırmak yerine link yardımı ile gideceğim. Bunun için de gidilecek bölüm için a tagine name özelliği verilmelidir:
+    </p>
+    <p>name ile:</p>
+    <a href="#sonbolum">Sayfanın Sonuna Git!</a>
+    <br>
+    <p>id ile:</p>
+    <a href="#footer">Sayfanın Sonuna Git!</a>
+    
+    <h3>Website yönlendirmesinde kullanımı:</h3>
+    <p>
+        a etiketinde href özelliğine verilen herhangi bir websitesi adresine kolayca gidilebilir. Burada target özelliğini göreceğiz. Bu özellik, gitmek istediğimiz bağlantının geçerli pencerede mi yoksa yeni bir pencerede mi açılması için kullanılır. _self özelliği geçerli pencerede açılması içindir. Varsayılan olarak böyledir. _blank özelliği ise yeni bir pencerede açılması içindir. Google' ın internet sitesine gidelim:
+    </p>
+    <p>a href="https://www.google.com.tr" target="_blank" : </p>
+    <a href="https://www.google.com.tr" target="_blank">GOOGLE</a>
+    <p>a href="https://www.google.com.tr" :</p>
+    <a href="https://www.google.com.tr" >GOOGLE</a>
+    
+    <h3>Mail ve telefon yönlendirmesinde kullanımı:</h3>
+    <p>
+        a etiketinin href özelliğine verilen mailto: ve tel: özellikleri sayesinde direkt olarak herhangi bir e-mail adresine posta gönderilebilir ya da geçerli bir telefon numarası aranabilir.
+    </p>    
+    <p>a href="mailto:info@abc.org": </p>
+    <a href="mailto:info@abc.org">ABC' ye mail atın.</a> <br>
+    <p>a href="tel:000000000000000": </p>
+    <a href="tel:000000000000000">Abc' yi arayın.</a>   
+    <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur laborum reprehenderit architecto impedit? Tenetur voluptates cupiditate earum accusamus magni soluta temporibus impedit, explicabo quod odio hic beatae nobis. Incidunt provident ad iure facilis quae qui sit quis, tempora tempore consequuntur laudantium vel consequatur dignissimos reprehenderit et, omnis magni, at molestiae eligendi alias minima? Inventore repellat veritatis aut assumenda aspernatur blanditiis placeat. Neque iusto consequuntur deserunt ratione saepe odio et eos dolorum tempore. Mollitia eum harum similique ea consequuntur, quas illo assumenda, perspiciatis distinctio repudiandae inventore culpa temporibus consectetur animi a! Perspiciatis, modi. Sint aut, beatae quasi quo assumenda vitae praesentium? Accusamus qui pariatur exercitationem natus dicta quisquam quos quod ut expedita consectetur! Laudantium quam eaque ex sapiente maxime magni reprehenderit modi odio, saepe, unde quis perspiciatis adipisci consectetur quo id similique sit qui numquam! Veniam delectus minus illo iste amet animi ex temporibus, nam pariatur, ipsum tempora deleniti cum est hic quas inventore, quidem totam quos dignissimos culpa magnam. Sit pariatur voluptate iste quaerat porro placeat itaque aut ipsam facere quo. Non impedit minima iste voluptatum sed, voluptates, recusandae tempora, reiciendis aliquam quas maxime. Ad veniam exercitationem rerum, ut sunt neque earum. Sit impedit veniam error unde quae delectus commodi eaque? Officiis magni id voluptatum itaque odio et blanditiis omnis hic. Quo dicta ea sed maiores enim, provident saepe a earum perspiciatis nemo cupiditate! Ratione tempora quis corrupti fugit libero, fugiat magnam sapiente nulla! Iste aut id sapiente assumenda distinctio eaque, aspernatur sint tempora dignissimos aperiam! Rem, ex molestiae laudantium, similique id aperiam, veniam esse nihil corrupti labore facere. Nesciunt earum in laborum, explicabo eligendi iusto totam eos aperiam vero. Ullam alias ipsum, rerum error beatae sapiente veniam corrupti eius perferendis quam corporis expedita atque nobis reprehenderit nulla ad quas quaerat incidunt at minima. Quia doloribus ipsam voluptatem, praesentium tempora velit inventore deleniti cumque quis tempore! Esse hic commodi placeat sint fuga dolores culpa! Quo libero quidem ea vero reprehenderit perspiciatis quasi quas. Molestias rerum, suscipit tempora dolores sint minima officia quisquam aperiam minus tenetur optio neque corporis qui exercitationem, assumenda perferendis! Quo, velit. Minima, voluptatibus! Quos aspernatur repellat consequuntur maxime nostrum ea voluptatum. Voluptas eaque voluptate accusantium, adipisci nemo repudiandae provident, doloremque iste cumque, est maxime ratione maiores deleniti odio totam beatae quis nisi sapiente. Inventore deserunt, porro dolor maiores dicta libero perferendis quaerat doloribus iusto nesciunt sit rerum doloremque quibusdam, fuga quod at temporibus aut corporis fugiat. Accusantium quo recusandae, cum sit blanditiis ratione perferendis voluptatem, unde quia ipsam cupiditate cumque ipsa a doloribus totam ad nobis harum corrupti nemo minima laudantium. A in expedita sequi eligendi vero, reprehenderit vitae laudantium maiores quisquam illum itaque ut esse neque quas quidem saepe quam minus maxime voluptatem delectus fugit, eum et. Laborum itaque ipsum quam consectetur quasi ea obcaecati illo rem nihil tempora dolorem nobis commodi impedit aperiam dolore libero eius voluptates praesentium, quidem distinctio eligendi. Quas aliquid odio beatae eligendi soluta aut, maiores cumque perspiciatis tempora sunt dolorem alias dolor! Perspiciatis nisi odit dolorum. In incidunt voluptas atque ipsa!
+    </p>
+
+    <h3 id="footer">İletişim</h3>
+    <a name="sonbolum"></a>
+    <p>
+        İletişim için <a href="https://github.com/Mua12"> tıklayınız.</a>
+    </p>
+</body>
+</html>
