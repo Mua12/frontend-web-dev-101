@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>İskeletinin Genel Yapısını Anlamak</title>
+</head>
+<body>
+    <h1>İskeletinin Genel Yapısını Anlamak</h1>
+    <p>
+        HTML sayfalarının en temel bileşenleri nelerdir? Bir HTML iskeleti nasıl oluşturulur ? <br>    
+
+        Web tasarım konusunda araştırma yapan hemen herkesin karşına çıkan temel kavram HTML'dir. Web sayfalarını oluşturma aşamasında kullanılan standart bir metin işaret dili olan HTML açılımı “Hyper Text Markup Language” olarak bilinir. Genel bilinen yanlış kanının aksine HTML bir programlama dili değildir. <br>
+
+        Daha açık anlatmak gerekirse, Chrome, Firefox, Yandex gibi tarayıcıların okuyup anlamlandırdığı dil HTML dilidir. <br>
+        
+        Bir html sayfası oluşturmadan önce mutlaka HTML 5 standartlarına uygun bir html iskeleti oluşturmalıyız. Web sayfalarımızı HTML 5 standardına uygun hazırlamamız büyük önem taşımaktadır çünkü arama motorları tarafından önemsenmektedir.
+            
+    </p>    
+    <!--
+        HTML iskelet örneği :
+        <!DOCTYPE html>
+        <html lang="en">
+        <head>
+        <meta charset="UTF-8">
+        <title>Page Title</title>
+        <meta name="viewport" content="width=device-width,initial-scale=1">
+        <link rel="stylesheet" href="">
+        <style>
+        </style>
+        <script src=""></script>
+        </head>
+        <body>
+        
+        <img src="img_la.jpg" alt="LA" style="width:100%">
+        
+        <div class="">
+        <h1>Bu bir h1 boyutunda başlık.</h1>
+        <p>Bu bir paragraf.</p>
+        <p>Bu başka bir paragraf.</p>
+        </div>
+        
+        </body>
+        </html>        
+    -->
+    <h2>HTML'inizi Yapılandırma</h2>
+    <p>
+        HTML yapısında sayfanın genel yapısını tanımlamak ve bazı basit başlık bilgilerini sağlamak için 3 farklı etiket bulunur. Bu üç etiket < html> , < head> ve < body> her web sayfasının temel iskeletini oluşturur. <br>
+    
+        Ayrıca, her şeyi yüklemeden önce sayfa hakkında basit bilgiler (başlığı veya yazarı gibi) sağlarlar. Sayfa yapısı etiketleri, sayfanın görüntülendiğinde nasıl görüneceğini etkilemez; sadece tarayıcılara yardımcı olmak için bulunurlar.    
+    </p>    
+    <h3>DOCTYPE Tanıtıcı</h3>
+    <p>
+        Bir sayfa yapısı etiketi olmasa da, XHTML 1.0 ve HTML 5 standartları web sayfalarınıza ek bir gereklilik getirir. Her sayfanın ilk satırı, sayfanızın uygun olduğu HTML sürümünü tanımlayan bir DOCTYPE tanımlayıcısı ve bazı durumlarda, spesifikasyonu tanımlayan Belge Türü Tanımını (DTD) içermelidir . Bunu < html > , < head > ve < body > etiketleri takip eder. HTML 5 belge türü, sayfa yapısı etiketlerinden önce görünür.
+    </p>
+    
+    <h3>html Etiketi</h3>
+    <p>
+        Her HTML sayfasındaki ilk sayfa yapısı etiketi html etiketidir. Bu dosyanın içeriğinin HTML dilinde olduğunu gösterir. html etiketi DOCTYPE tanımlamasından hemen sonra kullanılmalıdır. Web sayfanızdaki tüm metin ve HTML öğeleri HTML etiketlerinin başlangıcına ve bitişine yerleştirilmelidir. <br> 
+        html etiketi sayfasını oluşturan etiketlerin tümünün bir kabı olarak hizmet vermektedir. Bunu dışarıda bırakırsanız, ki bunu yapmamalısınız çünkü bu, sayfanızı geçersiz kılar, tarayıcı sizin için bir html etiketi oluşturur, böylece sayfa HTML işlemcisi için anlamlı olur.
+    </p>
+    <h3>head Etiketi</h3>
+    <p>
+        head etiketi sayfayla ilgili bilgiler içeren etiketler için bir kapsayıcıdır. Genellikle sayfanın head bölümünde yalnızca birkaç etiket kullanılır. Sayfanızın hiçbir metnini başlığa ( head etiketleri arasına ) koymamalısınız. Yine head etiketinin arasında bulunan lang anahtar kelimesinin amacı sayfa içeriğinin hangi dilde oluştuğudur. Bunu belirtmemizin sebebi arama motorlarında bize bu sayfayı tarayıcımızın diliyle zıt düştüğü durumda çevirme tavsiyesi verip vermemesini sağlamaktır.
+    </p>
+    
+    <h4>head Etiketi Arasında Bulunan Diğer Anahtar Kelimelerin Görevleri</h4>
+    <ul>
+        <li> 
+            meta : Sayfamızı tanımlayan açıklamaların bulunduğu kısımdır. Sayfa açıklaması, sayfa başlığı, kullanılan karakter seti tanımlaması gibi işlemler burada tanımlanıyor.
+        </li>
+        <li>
+            title: Tarayıcı penceresinin sekmesindeki başlığı buradan belirtiyoruz.
+        </li>
+        <li>
+            style: Sayfada kullanılan stil işlemlerinin tanımlaması yapılır. Örneğin arka plan rengi yazı rengi ya da nesnelerin hizalanması gibi işlemler.     
+        </li>
+    </ul>
+    
+    <h3>body Etiketi</h3>
+    <p>
+        HTML sayfanızın içeriği body etiketi içinde bulunur . Bu, tüm metni ve diğer içeriği (bağlantılar, resimler vb.) içerir.
+        <br>
+        Aşağıdaki örnekte etiketlerin iç içe olduğunu göreceksiniz. Yani hem 'body' ve '/body' hem de 'head' ve '/head' etiketlerini html etiketlerinin kapsadığını göreceksiniz. Tüm HTML etiketleri bu şekilde çalışır ve metnin tek tek iç içe bölümlerini oluşturur.    
+    </p>
+</body>
+</html>

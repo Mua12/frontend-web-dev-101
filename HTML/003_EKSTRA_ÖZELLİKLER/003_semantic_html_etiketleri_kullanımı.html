@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Semantic(Anlamlandırılmış) HTML Etiketleri Kullanımı</title>
+</head>
+<body>
+    <h1>Semantic(Anlamlandırılmış) HTML Etiketleri Kullanımı</h1>
+    <img src="images/HTML.png" alt="Semantic_HTML_Etiketleri">
+    <!-- Örnek: ------------------------------------------------------------------------------>
+    <hr>
+    <hr>
+    <p>------Örnek------</p>
+    <nav>
+        <h2>Nav</h2>       
+        <ul>
+            <li>Lorem, ipsum dolor.</li>
+            <li>Quisquam, adipisci corrupti!</li>
+            <li>Tempora, et blanditiis.</li>
+        </ul>
+    </nav>
+    <hr />
+
+    <main>
+    <aside>
+        <h2>Left Bar</h2>
+        <ul>
+        <li>Lorem, ipsum.</li>
+        <li>Ipsa, similique.</li>
+        <li>Ullam, illum?</li>
+        <li>Ducimus, officiis?</li>
+        </ul>
+    </aside>
+
+    <section>
+        <h2>Sections</h2>
+        <article>
+        <h1>Lorem.</h1>
+        <p>Lorem ipsum dolor sit amet.</p>
+        <p>Aspernatur eius voluptate quia cupiditate.</p>
+        </article>
+        <article>
+        <h1>Id?</h1>
+        <p>Placeat quasi minus libero veniam.</p>
+        <p>Amet reiciendis veniam deserunt voluptatem.</p>
+        </article>
+        <article>
+        <h1>Expedita.</h1>
+        <p>Iste minus harum quam dolore.</p>
+        <p>Incidunt sit perspiciatis minima? Aliquid.</p>
+        </article>
+    </section>
+    </main>
+
+    <footer>
+    <h1>Footer</h1>
+    <p>Lorem, ipsum dolor.</p>
+    </footer>
+    <hr>
+    <hr>
+    <!---------------------------------------------------------------------------------------->
+    <h2>Semantic(Anlamlandırılmış) HTML Etiketleri:</h2>
+    <p>
+        Semantik, anlam veya anlamlandırma anlamı ifadesi taşımaktadır. O halde semantik elementler herhangi bir anlamı olan etiketler ifadesi taşımaktadır. Semantik olarak anlamlandırılmış bir element hem tarayıcıya hem geliştiriciye ne anlama geldiğini açık bir şekilde belirtir. < div > ve < span > gibi elementler semantik olmayan elementlerdir ve mevcut içeriğin hakkında bilgi vermezler. < form >, < table > ve < img > gibi elementler semantik elementlerdir ve içeriği açıkça belirtirler.
+    </p>
+    <h2>header Elementi</h2>
+    <p>
+        header elementi bir doküman veya bir < section > için bir başlık olduğunu belirtir. İçinde barındırdığı içeriği kapsayıcı olmalıdır. Bir dokümanda birden fazla kullanılabilir. <br>
+        Aşağıdaki örnek, bir < article > için bir başlık içermektedir.    
+    </p>    
+    <!--
+        <header> 
+            <h1>Lorem ipsum dolor?</h1>
+        </header>
+        <p>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Mollitia temporibus, ratione esse dolorum iusto quidem similique blanditiis sed dolor labore molestias ullam veniam quaerat eaque. Ea ducimus culpa inventore totam.
+        </p>         
+    -->
+    <h2>nav Elementi</h2>
+    <p>
+        nav elementi navigasyon bağlantıları büyük sayfalar için ortaya çıkarılmıştır. Fakat, sayfadaki tüm linkler bu element içinde olmak zorunda değildir.
+    </p>
+    <p> < nav > Şirket Hakkımızda < /nav > </p>
+    <!--
+            <nav> Şirket Hakkımızda </nav>
+    -->
+    <h2>section Elementi</h2>
+    <p>Section elementi bir doküman içinde olan sadece bir kısmı belirtir.</p>
+    <!--
+        
+        <section>
+        <h1>Lorem Başlıyor!</h1>
+        <p>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Odit, minus? Amet, voluptas facere architecto vero possimus, dignissimos natus enim, quas nihil aliquid quo distinctio qui! Sit ea quisquam illum pariatur.
+        </p>
+        </section>
+        <section>
+        <h1>Lorem Nedir?</h1>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Odit, minus? Amet, voluptas facere architecto vero possimus, dignissimos natus enim, quas nihil aliquid quo distinctio qui! Sit ea quisquam illum pariatur.
+        </p>
+        </section>
+
+    -->
+
+    <h2>figure Elementi</h2>
+    <p>
+        İçeriğinde resim, gösterim, diyagram, kod listeleri vs. gibi nesnelerin olduğunu belirtir. Ana akış ile ilgili olsa da, konumu ana akıştan tamamen bağımsızdır. Çıkarılırsa dokümanın akışını engellemez.
+    </p>    
+   
+    <figure>
+        <img src="https://res.cloudinary.com/practicaldev/image/fetch/s--M1wKfqGd--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://dev-to-uploads.s3.amazonaws.com/uploads/articles/cbn4blzkjo4br6zz6vdg.png" />
+    </figure>
+
+    <h2>figcaption Elementi</h2>
+    <p>< figcaption > etiketi, < figure > elementinin belirttiği resme başlık koymaya yarar.</p>
+    
+    <figcaption>
+        <p>A duck.</p>
+        <p><small>Photograph courtesy of News.</small></p>
+    </figcaption>
+
+    <h2>aside Elementi</h2>
+    <p>< aside > elementi içerdiğinden farklı olarak daha başka bazı içerikleri tanımlar. İçeriği, üst içerik hakkında olmalıdır.
+    </p>    
+
+    <h2>article Elementi</h2>
+    <p>
+        < article > elementi bir makale elementidir. Bir makale web sayfasının geri kalanından bağımsız olarak dağıtılabilmelidir.
+        <br>     Genelde bu elementin kullanabildiği yerler forum mesajları, blog gönderileri, haber metinleri, yorumlar gibi makale içeren metinlerdir.
+    </p>    
+    
+    <h2>footer Elementi</h2>
+    <p>
+        < footer > elementi bir doküman ya da kısım için alt bilgilerini belirtir. Bir < footer > genelde dokümanın yazarını, telif haklarını, kullanım gizliği, iletisim vs. gibi bilgileri içerir ve bir dokümanda bir kereden fazla kullanılabilir.
+    </p>    
+</body>
+</html>
