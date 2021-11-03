@@ -1,0 +1,16 @@
+     /* Tekli yorum satırı */
+     p {
+        color: red; /* Metin rengini kırmızı yap*/
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        font-style: italic;
+       }
+    h1 {
+        font-size: 2.5em; /* 40px/16=2.5em */
+       }
+    h2 {
+        font-size: 30px;
+       }
+    
+    /* Çoklu yorum
+     satırı bu 
+     şekilde */

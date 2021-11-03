@@ -1,0 +1,120 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  position: relative;
+  font-family: "Roboto Mono", monospace;
+  font-size: 1em;
+  line-height: 20px;
+  padding: 0 5%;
+  background: none;
+}
+
+.tac {
+  text-align: center;
+}
+
+
+/* header style start */
+
+.logo {
+  padding: 15px 0;
+  padding-top: 20px;
+  color: #99DDCC;
+}
+
+nav ul {
+  width: 450px;
+  margin: 20px auto;
+  list-style: none;
+  display:flex;
+  justify-content: space-between;
+}
+
+.menu-item {
+  color: #9C19E0;
+}
+
+.active {
+  color: #FF5DA2;
+  font-weight: 600;
+  border-bottom: 2px whitesmoke;
+}
+
+header {
+  background-color:#000D6B;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* header style end */
+
+
+/* main and product.html style start */
+
+.title {
+  color: #000D6B;
+  font-size: 1.2em;
+  margin: 20px;
+}
+
+.boxs-bigcontainer {
+  width: 100%;
+  margin-bottom: 50px;
+  display: grid;
+}
+
+.boxs-container {
+  display: flex;
+  margin: 0 auto;
+  width: 50%;
+  justify-content: center;
+  align-items: center;
+}
+
+.box { 
+  margin: 0 auto;
+  padding: 0 10px;
+}
+
+.box-img {
+  border: 1px solid;
+  border-color: darkgray;
+}
+
+.info{
+  text-align: center;
+  color: #000D6B;
+}
+
+/* main and product.html style end */
+
+
+/* footer style start */
+
+.title-2 {
+  color: #000D6B;
+  font-size: 1.2em;
+  margin: 20px;
+}
+
+footer {
+  background-color: #FF5DA2 ;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 20px;
+}
+
+/* footer style end */
+
+
+/* about-us.html style start */
+
+article{
+  padding: 15px;
+  margin: 10px auto;
+}
+
+/* about-us.html style End */

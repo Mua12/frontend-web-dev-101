@@ -1,0 +1,9 @@
+body {
+background-color: solid blue;
+}
+
+.first_div, .second_div, .third_div {
+border: 7px outset gold;
+background-color: lightblue;
+text-align: center;
+}  
