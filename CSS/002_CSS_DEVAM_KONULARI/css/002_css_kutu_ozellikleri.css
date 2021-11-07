@@ -1,0 +1,99 @@
+body {
+margin: 0;
+padding: 0;
+}
+.container {
+width: 1000px;
+/*  
+    margin-left: auto;
+    margin-right: auto;*/
+margin: 50px auto 0;
+}
+
+.left-bar {
+width: 200px;
+float: left;
+}
+.content {
+width: 800px;
+float: left;
+height: auto;
+}
+
+.card {
+width: 20%;
+float: left;
+padding: 5%;
+margin-right: 3%;
+background-color: rgb(209, 209, 209);
+border-radius: 10px;
+}
+
+.clear {
+clear: both;
+}
+
+.box {
+background-color: red;
+width: 300px;
+height: 300px;
+padding: 10px;
+/*  margin: 10px; */
+margin-right: 10px;
+/*  margin-left: 10px; */
+/*  margin-top: 10px; */
+/*  margin-bottom: 10px; */
+float: left;
+
+margin-bottom: 10px;
+margin-top: 10px;
+}
+
+.bg-red {
+background-color: red;
+}
+
+.bg-green {
+background-color: green;
+}
+.bg-yellow {
+background-color: yellow;
+}
+  
+/***********************************************************
+-Kutu modeli margin,padding,border ve içerikten oluşur.
+
+İçerik(content): Elementin içinde olan resim, ses ya da yazıdır.
+Padding: İçerik ile border arasında olan boşluk.
+Border: Padding ile margin'i ayıran sınırdır.
+Margin: Kutunun diğer kutularla arasındaki mesafeyi ayarlayan boşluk.
+Yukarıda saydığım kavramların dışında kutunun boy ve uzunluğunu belirleyen width ve height kavramları vardır. Bunları da alıştırmalarımızda göstermeye çalışacağım.
+
+width ve height
+width ve height özellikleri ile elementin, yani lego parçamızın boy ve genişliğini ayarlayabiliriz. Bu özellikleri biz yazmadığımız takdirde tarayıcı kendisi ayarlar ve yapacağımız web uygulamasında istenmeyen sonuçlara neden olur :)Bu özellikleri px, em veya % ile kullanabiliriz. % ile kullandığımız zaman elementimiz hangi elementin içindeyse ona göre oranlanır. Yani 800px boyunda bir <div> tag'inin içinde bulunan bir elementin boyunu 50% olarak ayarlarsanız elementin boyu 400px olur.
+
+Max-width özelliği ise bir elementin genişliğini sınırlamak istediğimizde kullanırız. Diyelim ki bir element tarayıcı ekranından fazla geniş veya uzun. Bu durumda scrollbar(kaydırma çubuğu) çıkar.
+
+*****************margin ve padding********************** 
+
+margin
+
+Margin özelliği ile elementin dışında boşluk oluşturmada kullanıldığını öğrenmiştik. Şimdi nasıl kullanıldığını açıklamaya çalışacağız.
+
+margin özelliğini 50px yaptığınızda elementin dört yanında 50px boşluk oluşturulur. Element sağa doğru kayar. Negatif değerler de kullanılabilir. margin değerine -50px yazdığınız takdirde element sola doğru kayacaktır. Dört yanında değil de sadece bir yönde boşluk oluşturmak isteyebilirsiniz. Bunun için de özellikler vardır.
+
+margin-left: Soldan boşluk bırakır.
+margin-top: Yukarıdan boşluk bırakır.
+margin-bottom: Aşağıdan boşluk bırakır.
+margin-right: Sağdan boşluk bırakır.
+
+******************************
+padding
+Şimdi gelelim padding özelliğine. Elementin içindeki yazıların çerçeve(border) ile mesafesini padding ile ayarlarız. margin özelliğinde olduğu gibi padding:50px yaptığımızda içeriğin her tarafı için 50px boşluk bırakıyoruz. Belirli bir tarafta padding bırakmak için;
+
+padding-top: içeriğin yukarısında boşluk bırakır.
+padding-bottom: içeriğin aşağısında boşluk bırakır.
+padding-left: içeriğin solunda boşluk bırakır.
+padding-right: içeriğin sağında boşluk bırakır.
+
+*/
