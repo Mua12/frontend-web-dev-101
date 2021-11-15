@@ -20,6 +20,6 @@ Bu ödevde sizlerden istediğimiz hayal gücünüzü kullanarak öğrendiğiniz 
 
 Hepinize başarılar, kolay gelsin.
 
-![index](https://github.com/Mua12/frontend-web-dev-101/blob/main/CSS/000_CSS_ODEVLER/Odev_1/images/index.png)
-![products](https://github.com/Mua12/frontend-web-dev-101/blob/main/CSS/000_CSS_ODEVLER/Odev_1/images/products.png)
-![about-us](https://github.com/Mua12/frontend-web-dev-101/blob/main/CSS/000_CSS_ODEVLER/Odev_1/images/about-us.png)
+![index](https://github.com/Mua12/frontend-web-dev-101/blob/main/CSS/000_CSS_ODEVLER/Odev_1/img/index.png)
+![products](https://github.com/Mua12/frontend-web-dev-101/blob/main/CSS/000_CSS_ODEVLER/Odev_1/img/products.png)
+![about-us](https://github.com/Mua12/frontend-web-dev-101/blob/main/CSS/000_CSS_ODEVLER/Odev_1/img/about-us.png)
