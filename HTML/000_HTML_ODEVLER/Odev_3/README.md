@@ -7,4 +7,4 @@ Bu ödevimizde sevdiğimiz bir yemek ya da tatlının tarifini öğrendiğimiz b
 ![img](https://github.com/Kodluyoruz/taskforce/blob/main/html/html-odev3/figures/%C3%A7ikolatak%C3%BCpleri.PNG?raw=true)
 Kolaylıklar.
 
-![alt text](https://github.com/Mua12/frontend-web-dev-101/blob/main/HTML/000_HTML_ODEVLER/Odev_3/images/md_01.png)
+![img](https://github.com/Mua12/frontend-web-dev-101/blob/main/HTML/000_HTML_ODEVLER/Odev_3/Images/md_01.png)
